@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(8 8 33);
+    color : white;
+    padding: 0px;
+    margin : 0px;
+}
+
+nav{
+    background-color: #151531;
+    
+}
+.nav{
+    display: flex;
+    margin: 15px 50px;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+nav ul li{
+    margin-right: 45px;
+}
+
+.right_side{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 3rem;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Styling of Section 1 */
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 >div{
+    background-color: black;
+    height: 55vh;
+    width: 35%;
+    margin: 35px;
+    padding: 50px; 
+    font-size: 40px;
+}
+
+.textDechi{
+    color: rgb(63, 25, 65);
+}
+
+.textDecname{
+    font-family: "Protest Guerrilla", sans-serif;
+    color: blueviolet;
+    font-size: 4rem;
+}
+
+.textDecdev{
+    color: rgb(63, 25, 65);
+}
+
+
+.leftFSec{
+
+}
+
+.rightFSec{
+
+}
