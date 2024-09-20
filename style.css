@@ -6,15 +6,26 @@ body{
 }
 
 nav{
+    position: fixed;
     background-color: #151531;
+    height: 65px;
+    width: 100%;
+    margin: 25px 0px;
 
 
    
     
 }
+
+.supernav{
+    height: 90px;
+    width: 100%;
+}
+
+
 .nav{
     display: flex;
-    margin: 15px 50px;
+    margin: 0px 50px;
     justify-content: space-between;
 }
 
