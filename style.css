@@ -121,27 +121,45 @@ nav ul li{
 }
 
 .section2{
-    height: 55vh;
-    width: 80%;
+    height: 75vh;
+    width: 87%;
     margin: 35px;
     padding: 50px;
     font-family: "Pacifico", cursive;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: rgb(17, 17, 27);
 
 }
 
-.section2 >h1 {
+.section2 >div{
+    height: 75vh;
+    width: 45%;
+
+}
+
+.section2 h1 {
     font-size: 3rem;
     font-weight: 800;
 }
 
-.section2 > p{
-    font-size: 1.5rem;
+.section2  p{
+    
 }
 
 .section2 img{
-    height: 400px;
-    width : 400px;
+    height: 100%;
+    width : 100%;
     border-radius: 50%;
+    border:  2px solid white;
+    box-shadow: 0px 0px 4px white;
+   
+}
+
+.leftsec2{
+    
+}
+
+.rightsec2{
+
 }
