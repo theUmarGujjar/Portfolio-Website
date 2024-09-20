@@ -7,6 +7,9 @@ body{
 
 nav{
     background-color: #151531;
+
+
+   
     
 }
 .nav{
@@ -28,11 +31,13 @@ nav ul li{
 }
 
 .right_side{
+
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 3rem;
 }
 
 .left_side{
+
     display: flex;
     align-items: center;
 }
@@ -43,7 +48,10 @@ nav ul li{
 .section1{
     display: flex;
     justify-content: space-around;
+    /* background-color: #101021; */
 }
+
+
 
 .section1 >div{
     /* background-color: black; */
@@ -101,3 +109,28 @@ nav ul li{
     border-radius: 100%;
 }
 
+.section2{
+    height: 55vh;
+    width: 80%;
+    margin: 35px;
+    padding: 50px;
+    font-family: "Pacifico", cursive;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section2 >h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.section2 > p{
+    font-size: 1.5rem;
+}
+
+.section2 img{
+    height: 400px;
+    width : 400px;
+    border-radius: 50%;
+}
