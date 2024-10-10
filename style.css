@@ -39,12 +39,21 @@ nav ul{
 
 nav ul li{
     margin-right: 45px;
+    color : rgba(256,256,256,0.5);
+    transition : 1s;
 }
 
+nav ul li:hover{
+    color : rgba(256,256,256,1);
+    transform :scale(1.2);
+    cursor:pointer;
+
+}
 .right_side{
 
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 3rem;
+    cursor: pointer;
 }
 
 .left_side{
@@ -96,9 +105,6 @@ nav ul li{
 }
 
 
-.leftFSec{
-   
-}
 .section1 .rightFSec{
     padding: 0;
     margin: 20;
@@ -143,9 +149,6 @@ nav ul li{
     font-weight: 800;
 }
 
-.section2  p{
-    
-}
 
 .section2 img{
     height: 100%;
@@ -156,10 +159,100 @@ nav ul li{
    
 }
 
-.leftsec2{
+/* Footer of the web page start */
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.45);
+    height:  85vh;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+.footer > .childFooter{
+    height : 100%;
+    width : 30%;
+}
+
+.footer > .rightFooter{    
+    padding : 10px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 1.56rem;
+    text-align: center;
+    
+
+}
+
+.footer > .rightFooter > i{
+    font-size: 40px;
+    color : white;
+}
+
+.footer > .rightFooter > a{
+    font-size: 50px;
+    color : white;
+    opacity: 0.7;
+    transition: 1s ease;
+   
+}
+.footer > .rightFooter > a:hover{
+    opacity: 1;
+    font-size: 59px;  
+}
+
+.footer > .midFooter{
+    opacity: 0.97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .midFooter > img{
+    height: 90%;
+    width : 70%;
+    border-radius: 7px;
     
 }
 
-.rightsec2{
+.footer > .leftFooter{
+    text-align: center;
+    font-size: 30px ;
+    font-family: "Protest Guerrilla", sans-serif;
 
+}
+
+.footer > .leftFooter > p{
+    color : rgba(256,256,256,0.5);
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.footer > .rightFooter > p{
+    color : rgba(256,256,256,0.5);
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.footer > .childFooter > h1{
+    cursor: pointer;
+}
+
+.footer > .childFooter > h3{
+    cursor:pointer;
+}
+
+ img{
+    cursor : crosshair;
+}
+
+.footer>.rightFooter>p:hover{
+    color : rgba(256,256,256,1);
+    font-size: 28px;
+}
+
+.footer>.leftFooter>p:hover{
+    color : rgba(256,256,256,1);
+    font-size: 35px;
 }
