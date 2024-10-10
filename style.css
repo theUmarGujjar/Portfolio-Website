@@ -79,7 +79,6 @@ nav ul li a:hover{
 .section1{
     display: flex;
     justify-content: space-around;
-    /* background-color: #101021; */
 }
 
 
@@ -308,4 +307,72 @@ nav ul li a:hover{
 .section3 > .subsection3 > p > span{
     font-family: "Protest Guerrilla", sans-serif;
     color : rgba(255, 255, 255,1) ;
+}
+
+
+/* section 4 of the services page*/
+.section4{
+   height: 110vh;
+   width : 94%;
+   padding:3%;
+   background-color: rgba(192, 189, 194, 0.622);
+
+}
+.section4 >h1{
+    color : black;
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2.7rem;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    transition: 1.5s;
+}
+
+.section4>h1:hover{
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.section4 > .subsection{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.section4 > .subsection >.subsection1{
+    background-color: rgb(18, 17, 32); /* testing phase */
+    padding-left : 5%;
+    padding-right : 5%;
+    padding-top : 1%;
+    border-radius: 9px;
+   
+    color : rgba(255, 255, 255, 0.734); /* testing phase */
+    height: 90vh;
+    width : 20%;
+    transition: 1s;
+}
+
+.section4 > .subsection > .subsection1:hover {
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.section4 > .subsection > .subsection1 > h1{
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 42px;
+    box-shadow: 0px  2px  4px white;
+    transition: 1s;
+}
+
+.section4 > .subsection > .subsection1 > h1:hover{
+    box-shadow: 0px  2px  7px white;
+    cursor: pointer;
+}
+
+.section4> .subsection > .subsection1>p{
+    font-family :  "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
 }
