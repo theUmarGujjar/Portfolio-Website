@@ -39,14 +39,25 @@ nav ul{
 
 nav ul li{
     margin-right: 45px;
-    color : rgba(256,256,256,0.5);
     transition : 1s;
 }
 
+nav ul li > a{
+    text-decoration: none;
+    color:rgba(256,256,256,0.5);
+}
+
+
 nav ul li:hover{
-    color : rgba(256,256,256,1);
+
     transform :scale(1.2);
     cursor:pointer;
+
+} 
+   
+
+nav ul li a:hover{
+    color : rgba(256,256,256,1);
 
 }
 .right_side{
@@ -255,4 +266,46 @@ nav ul li:hover{
 .footer>.leftFooter>p:hover{
     color : rgba(256,256,256,1);
     font-size: 35px;
+}
+
+
+
+/* section 3 (part of about starts) */
+
+.section3{
+    height: 100vh;
+    width: 94%;
+    padding-left : 3%;
+    padding-right : 3%;
+    padding-top : 20px;
+}
+
+.subsection3{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding : 50px;
+
+}
+
+.subsection3>h1{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 2.7rem;
+    text-align: center;
+    box-shadow: 0px 2px 5px wheat;
+    transition: 1.5s;
+}
+
+.subsection3>h1:hover{
+    box-shadow: 0px 4px 8px wheat;
+}
+
+.subsection3 > p{
+    font-size: 24px;
+    font-family :  "Edu AU VIC WA NT Guides", cursive;
+    color : rgba(255, 255, 255,0.6) ;
+    
+}
+
+.section3 > .subsection3 > p > span{
+    font-family: "Protest Guerrilla", sans-serif;
+    color : rgba(255, 255, 255,1) ;
 }
