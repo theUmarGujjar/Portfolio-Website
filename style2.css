@@ -3,7 +3,6 @@ body{
     color : white;
     padding: 0px;
     margin : 0px;
-    overflow-x: hidden;
 }
 
 nav{
@@ -16,11 +15,6 @@ nav{
 
    
     
-}
-
-/* Testing phase */
-.menu_btn{
-    z-index: 1;
 }
 
 .supernav{
@@ -184,7 +178,7 @@ nav ul li a:hover{
     width : 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
     
 }
@@ -498,9 +492,41 @@ nav ul li a:hover{
 
 
 
-/* media queries */
+/* media query for form */
 
-@media (min-width : 1051px) {
+@media (max-width : 850px) {
+    .form{
+        width:75%;
+    }
+}
+
+@media (max-width : 500px) {
+    .section5{
+        height: 110vh;
+    }
+    .form{
+        width : 85%;
+        height: 90vh;
+    }
+}
+
+
+@media (max-width : 800px) {
+    .section2{
+        height : 170vh;
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .section2 > div{
+        width : 100%;
+        height : 45%;
+        
+    }
+}
+@media (min-width : 1050px) {
     .nav > .left_side > .menuIcon{
         display: none;
     }
@@ -542,90 +568,20 @@ nav ul li a:hover{
     }
 }
 
-@media (max-width : 850px) {
-    .form{
-        width:75%;
+@media (max-width : 550px) {
+    .section4{
+        height: 300vh;
     }
-    .section1{
-        height: 110vh;
-    }
-    .footer{
-        height: 95vh;
-    }
-}
-
-@media (max-width : 800px) {
-    .section1{
-        margin: 0 auto;
-        height : 120vh; 
-        width: 65%;
-        display: flex;
-        flex-direction:column;
-        justify-content: space-evenly;
-        align-items: start;
-        position: relative; 
-        left: 25px;
-        align-items: center;      
-    }
-    nav {
-        z-index: 1; 
-    }
-    
-
-    .section1>div{
-        width : 100%;
-        height : 45%;
-    }
-
-    .section1>.right_side{
-        display: flex;
-        justify-content: center;
-    }
-
-    .section2{
-        height : 170vh;
-        width: 87%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    
-    .section2 > div{
-        width : 100%;
-        height : 45%;
-        
-    }
-
-    .footer{
-        width: 110%;
-        height: 260vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+    .section4 > .subsection{
+        height : 280vh;
+        width : 94%;
         align-items: center;
     }
 
-    .footer .childFooter{
-        width: 100%;
-    }
-    
-    .footer .midFooter{
-        width: 50%;
-    }
-
-    
-}
-
-@media (min-width : 450px ) and (max-width : 750px){
-
-    .subsection3{
-        width : 100%;
-        height : 130vh;
-
-    }
-
-    .section2{
-        width: 81%;
+    .section4 > .subsection > .subsection1{
+        margin-left: 6%;
+        width : 96%;
+        height : 84.6vh;
     }
 }
 
@@ -636,156 +592,17 @@ nav ul li a:hover{
     .subsection3{
         width : 90%;
         height : 180vh;
-        
-    }
-    .footer .midFooter{
-        width: 60%;
-    }
-    .section2{
-        width: 80%;
+
     }
 }
 
-@media (max-width : 550px) {
-    .section1{
-        height: 140vh;
-    }
-    .section2{
-        height: 180vh;
-        width: 79%;
-    }
-    
-    .section4{
-        height: 300vh;
-    }
-    .section4 > .subsection{
-        height : 280vh;
-        width : 94%;
-        align-items: center;
-    }
-    
-    .section4 > .subsection > .subsection1{
-        margin-left: 6%;
-        width : 96%;
-        height : 84.6vh;
-    }
-    .footer .midFooter{
-        width: 70%;
-    }
-    
-}
-
-@media (max-width : 500px) {
-    .section5{
-        height: 110vh;
-    }
-    .form{
-        width : 85%;
-        height: 90vh;
-    }
-    .footer .midFooter{
-        width: 80%;
-    }
-}
-
-@media (max-width: 450px) {
-    .section1{
-        height: 150vh;
-    }
-    .section2{
-        height: 200vh;
-        width: 75%;
-    }
-
-    .footer .midFooter{
-        width: 90%;
-    }
-    
-}
-
-@media (max-width: 400px) {
-    .section1{
+@media (min-width : 450px ) and (max-width : 750px){
+    .section3{
         height: 170vh;
     }
-}
+    .subsection3{
+        width : 100%;
+        height : 130vh;
 
-@media (max-width: 360px) {
-    .section1{
-        height: 150vh;
     }
-    .section2{
-        height: 200vh;
-    }
-    .footer{
-        height: 240vh;
-    }
-}
-
-
-
-@media (min-height : 800px ) and (max-width : 431px) and (min-width: 400px){
-    .section1{
-        height: 120vh;
-    }
-    .section2{
-        height: 170vh;
-    }
-    .footer{
-        height: 210vh;
-    }
-}
-
-@media (min-height : 800px ) and (max-width : 400px) {
-    .section1{
-        height: 130vh;
-    }
-    .section2{
-        height: 180vh;
-    }
-    .footer{
-        height: 220vh;
-    }
-}
-
-
-/* JUST for testing */
-
-.nav > .left_side  .menus{
-    height : 65vh;
-    width : 225px;
-    background-color: rgba(22, 3, 61, 0.948);
-    position : fixed;
-    right : 20px;
-    top: 90px;
-}
-
-.nav > .left_side .menus >ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    font-size: 1.5rem;
-    margin: 10px;
-}
-
-.nav > .left_side .menus > ul >li{
-    width : 190px;
-    padding-top: 30px;
-    color : black;
-    transform: translateX(-35px);
-    text-align: center;
-    margin :0px;
-}
-
-.nav > .left_side .menus > ul >li:hover{
-    box-shadow: 0px 2px 4px white;
-}
-
-.menuDisplay{
-    display: none;
-    z-index: 1000;
-}
-
-.menu_btn{
-    cursor : pointer;
 }
