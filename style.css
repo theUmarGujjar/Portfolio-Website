@@ -44,17 +44,35 @@ nav ul{
 nav ul li{
     margin-right: 45px;
     transition : 1s;
+    padding-bottom: 3px;
 }
+
+/*You have to learn it*/
+nav ul li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;      /* Position it at the bottom */
+    left: 0%;      /* Center it horizontally */
+    width: 0;       /* Start with width 0 */
+    height: 2px;    /* Height of the "border" */
+    background-color: #fafafa;  /* Color of the "border" */
+    transition: width 0.5s ease, left 0.5s ease; /* Transition for width and position */
+}
+  
 
 nav ul li > a{
     text-decoration: none;
     color:rgba(256,256,256,0.5);
 }
 
+nav ul li:hover::before {
+width: 100%;        /* Set the width to 50% on hover */
+left: 0%;         
+}
 
 nav ul li:hover{
-
-    transform :scale(1.2);
+    
+    transform :scale(1);
     cursor:pointer;
 
 } 
@@ -83,6 +101,7 @@ nav ul li a:hover{
 .section1{
     display: flex;
     justify-content: space-between;
+    padding: 5%;
 }
 
 
@@ -143,7 +162,7 @@ nav ul li a:hover{
 
 .section2{
     height: 75vh;
-    width: 87%;
+    /* width: 87%; */
     /* testing phase */
     /* margin: 2.5%; */
     padding: 50px;
@@ -797,7 +816,8 @@ nav ul li a:hover{
 
 .nav > .left_side .menus > ul >li{
     width : 190px;
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color : black;
     transform: translateX(-35px);
     text-align: center;
