@@ -165,7 +165,7 @@ nav ul li a:hover{
     /* width: 87%; */
     /* testing phase */
     /* margin: 2.5%; */
-    padding: 50px;
+    padding: 10%;
     font-family: "Pacifico", cursive;
     display: flex;
     justify-content: space-between;
@@ -647,7 +647,7 @@ nav ul li a:hover{
 @media (min-width : 450px ) and (max-width : 750px){
 
     .subsection3{
-        width : 100%;
+        width : 79%;
         height : 130vh;
 
     }
@@ -662,7 +662,7 @@ nav ul li a:hover{
         height: 200vh;
     }
     .subsection3{
-        width : 90%;
+        width : 79%;
         height : 180vh;
         
     }
@@ -681,6 +681,14 @@ nav ul li a:hover{
     .section2{
         height: 180vh;
         width: 79%;
+    }
+
+    .section3{
+        height: 220vh;
+    }
+    .subsection3{
+        width: 75%;
+        height: 190vh;
     }
     
     .section4{
@@ -706,6 +714,13 @@ nav ul li a:hover{
 @media (max-width : 500px) {
     .section2 img{
         height: 80%;
+    }
+    .section3{
+        height: 240vh;
+    }
+    .subsection3{
+        height: 210vh;
+
     }
     .section5{
         height: 140vh;
@@ -733,6 +748,13 @@ nav ul li a:hover{
     .section2 img{
         height: 70%;
     }
+    .section3{
+        height: 270vh;
+    }
+    .subsection3{
+        height: 240vh;
+
+    }
 
     .footer .midFooter{
         width: 90%;
@@ -741,26 +763,48 @@ nav ul li a:hover{
 }
 
 @media (max-width: 400px) {
+    nav .right_side{
+        font-size: 2.4rem;
+    }
     .section1{
         height: 170vh;
     }
     .section2 img{
         height: 65%;
     }
+    .section3{
+        height: 315vh;
+    }
+    .subsection3{
+        height: 285vh;
+        width: 68%;
+        
+    }
+    .subsection3>h1{
+        font-size: 2.2rem;
+    }
 }
 
 @media (max-width: 360px) {
+    nav .right_side{
+        font-size: 2.3rem;
+    }
+
     .section1{
         height: 150vh;
     }
-    nav .right_side{
-        font-size: 2.6rem;
-    }
     .section2{
-        height: 200vh;
+        height: 210vh;
     }
     .section2 img{
         height: 60%;
+    }
+    .section3{
+        height: 345vh;
+    }
+    .subsection3{
+        height: 315vh;
+
     }
     .footer{
         height: 240vh;
