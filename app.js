@@ -4,6 +4,7 @@ let menu_btn = document.querySelectorAll(".menu_btn");
 let submitform = document.querySelector(".submitForm");
 let submitButton = document.querySelector(".submit");
 let found = false;
+let footer = document.querySelector(".form");
 
 // For display navbar list
 menu_btn.forEach((btn) => {
@@ -60,7 +61,6 @@ submitButton.addEventListener('click', function (event) {
 
 
 });
-
 
 
 
